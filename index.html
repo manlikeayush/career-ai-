@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Career Advisor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2>AI Career Advisor 🤖</h2>
+
+    <button onclick="toggleMode()">Switch to AI Mode</button>
+
+    <div id="chatbox"></div>
+
+    <input type="text" id="userInput" placeholder="Type your answer..." 
+    onkeypress="if(event.key==='Enter') sendMessage()" />
+    
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
